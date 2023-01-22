@@ -1,0 +1,25 @@
+.infoIndicator {
+  flex: 1;
+  display: flex;
+  margin: 40px 10px 10px 30px;
+  flex-direction: column;
+}
+
+.indicatorWrapper {
+  margin-bottom: 15px;
+  display: flex;
+  font-size: 14px;
+}
+
+.indicatorKey {
+  font-weight: 700;
+  color: #848482;
+  width: 100px;
+  flex: 1 1;
+  min-width: 75px;
+}
+
+.indicatorValue {
+  margin-left: 20px;
+  flex: 4 1;
+}

@@ -1,0 +1,29 @@
+.contentWrapper {
+  display: flex;
+  justify-content: space-between;
+  flex: 3;
+  padding: 70px 40px 0;
+  background-color: #f9fafb;
+  height: 100%;
+}
+
+@media screen and (max-width: 620px) {
+  .contentWrapper {
+    flex-direction: column;
+    height: fit-content;
+  }
+}
+
+.divider {
+  width: 1px;
+  height: 50%;
+  background-color: lightgray;
+}
+
+@media screen and (max-width: 620px) {
+  .divider {
+    width: 100%;
+    height: 1px;
+    margin: 1rem 0;
+  }
+}

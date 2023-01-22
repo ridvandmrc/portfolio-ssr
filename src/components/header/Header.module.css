@@ -1,0 +1,67 @@
+.headerLayout {
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/578/161/258/windows-vista-aero-10-wallpaper-preview.jpg);
+  min-height: 230px;
+  align-items: center;
+  display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+  .headerLayout {
+    flex-direction: column;
+    padding: 2rem 0;
+  }
+}
+
+.imageWrapper {
+  margin-left: calc(2vw);
+  width: 200px;
+  height: 200px;
+  border: 3px solid white;
+  border-radius: 4px;
+  bottom: -20px;
+  left: 0;
+}
+
+.imageWrapper > img {
+  width: 100%;
+  height: 100%;
+}
+
+.headerDetail {
+  margin: auto;
+  white-space: nowrap;
+}
+
+.headerDetail > h1 {
+  color: #e5e4e2;
+  font-size: 36px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  line-height: 1;
+}
+
+.iconsContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.iconWrapper {
+  background-color: #e5e4e2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  -webkit-filter: drop-shadow(0 0 20px #1b5e20);
+  filter: drop-shadow(0 0 20px #1b5e20);
+  cursor: pointer;
+  margin: 0 0.4rem;
+}
