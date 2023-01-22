@@ -14,7 +14,7 @@ export const Header: FC = () => (
   <div className="headerLayout">
     <div className="imageWrapper">
       <Image
-        src="https://ridvandmrc.github.io/static/media/ridvan-foto.beaa8859.png"
+        src="https://media.licdn.com/dms/image/C5603AQE7QxE9uJ7ZbA/profile-displayphoto-shrink_800_800/0/1516991327140?e=1680134400&v=beta&t=yCq0hQx00r8Uwwv2Krt6mAncK2Z6xUuGBvSScDPnP-c"
         alt="Ridvan Demirci"
         width={200}
         height={200}
