@@ -4,9 +4,9 @@ import styles from "./ContentLayout.module.css";
 
 export const ContentLayout = () => {
   return (
-    <div className={styles.contentWrapper}>
+    <div className="contentWrapper">
       <About />
-      <div className={styles.divider}> </div>
+      <div className="divider"> </div>
       <InfoIndicator />
     </div>
   );

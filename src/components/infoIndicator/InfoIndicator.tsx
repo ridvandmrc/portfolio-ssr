@@ -6,14 +6,14 @@ const IndicatorHelper: FC<{ title: string; value: ReactNode }> = ({
   title,
   value,
 }) => (
-  <div className={styles.indicatorWrapper}>
-    <span className={styles.indicatorKey}>{title}:</span>
-    <span className={styles.indicatorValue}>{value}</span>
+  <div className="indicatorWrapper">
+    <span className="indicatorKey">{title}:</span>
+    <span className="indicatorValue">{value}</span>
   </div>
 );
 
 export const InfoIndicator = () => (
-  <div className={styles.infoIndicator}>
+  <div className="infoIndicator">
     <IndicatorHelper title="Age" value={27} />
     <IndicatorHelper title="Bachelor" value="Gebze Teknical University" />
     <IndicatorHelper title="Address" value="Kocaeli, Gebze" />

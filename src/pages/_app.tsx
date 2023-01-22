@@ -1,6 +1,10 @@
 import { MainLayout } from "@/layout";
 import "@/styles/globals.css";
-import type { AppProps } from "next/app";
+import "@/styles/about.css";
+import "@/styles/header.css";
+import "@/styles/infoIndicator.css";
+import "@/styles/contentLayout.css";
+import "@/styles/mainLayout.css";
 
 export default function App({ Component, pageProps }: any) {
   const getLayout = Component.pageLayout || ((page: any) => page);

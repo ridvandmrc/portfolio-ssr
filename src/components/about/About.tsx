@@ -1,8 +1,6 @@
-import styles from "./About.module.css";
-
 export const About = () => (
-  <div className={styles.aboutWrapper}>
-    <h4 className={styles.aboutMe}>
+  <div className="aboutWrapper">
+    <h4 className="aboutMe">
       About <span style={{ color: "#2e8b57" }}>Me!</span>
     </h4>
     <p>

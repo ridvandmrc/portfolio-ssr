@@ -1,19 +1,18 @@
 import Image from "next/image";
 import { FC, ReactNode } from "react";
-import styles from "./Header.module.css";
 
 const IconWrapper: FC<{ children: ReactNode; href: string }> = ({
   children,
   href,
 }) => (
   <a href={href}>
-    <div className={styles.iconWrapper}>{children}</div>
+    <div className="iconWrapper">{children}</div>
   </a>
 );
 
 export const Header: FC = () => (
-  <div className={styles.headerLayout}>
-    <div className={styles.imageWrapper}>
+  <div className="headerLayout">
+    <div className="imageWrapper">
       <Image
         src="https://ridvandmrc.github.io/static/media/ridvan-foto.beaa8859.png"
         alt="Ridvan Demirci"
@@ -21,9 +20,9 @@ export const Header: FC = () => (
         height={200}
       />
     </div>
-    <div className={styles.headerDetail}>
+    <div className="headerDetail">
       <h1>RIDVAN DEMİRCİ</h1>
-      <div className={styles.iconsContainer}>
+      <div className="iconsContainer">
         <IconWrapper href="https://www.instagram.com/demirci.r/">
           <Image
             width={20}
